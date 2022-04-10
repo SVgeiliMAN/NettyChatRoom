@@ -54,7 +54,6 @@ public class ChatRoomServer {
                 }
             });
 
-            Scanner scanner = new Scanner(System.in);
             //阻塞
             channelFuture.channel().closeFuture().sync();
 
